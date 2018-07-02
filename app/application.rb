@@ -1,5 +1,5 @@
 class Application
-  
+
   def call(time)
     resp = Rack::Response.new
 
@@ -11,7 +11,7 @@ class Application
     else
       resp.write "Good Afternoon"
     end
-
+      resp.finish
   end
 
 end
