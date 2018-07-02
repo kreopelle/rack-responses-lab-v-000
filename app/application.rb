@@ -3,7 +3,8 @@ class application
   def greeter
     resp = Rack::Response.new
 
-    
-  end 
+    if Time.now 
 
-end 
+  end
+
+end
