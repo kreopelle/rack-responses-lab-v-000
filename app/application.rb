@@ -1,8 +1,8 @@
 class Application
-
+  binding.pry 
   def call(time)
     resp = Rack::Response.new
-    binding.pry 
+
     time = time.to_a
     hour = time[3]
 
