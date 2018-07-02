@@ -1,8 +1,9 @@
 class Application
 
   def call
-    resp = Rack::Response.new
     binding.pry
+    resp = Rack::Response.new
+    
     if Time.now > 12
       resp.write "Good Afternoon"
     else
