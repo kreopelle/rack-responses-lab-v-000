@@ -1,6 +1,6 @@
 class Application
 
-  def greeter
+  def call
     resp = Rack::Response.new
     binding.pry
     if Time.now > 12
