@@ -1,8 +1,8 @@
-class application
+class Application
 
   def greeter
     resp = Rack::Response.new
-    binding.pry 
+    binding.pry
     if Time.now >
 
   end
