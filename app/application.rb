@@ -1,6 +1,6 @@
 class Application
 
-  def call(time)
+  def call(env)
     resp = Rack::Response.new
 
     time_array = time.to_a
