@@ -5,7 +5,7 @@ class Application
   def call(time)
     resp = Rack::Response.new
 
-    time = time.to_a
+    time_array = time.to_a
     hour = time[2]
 
     if hour < 12
