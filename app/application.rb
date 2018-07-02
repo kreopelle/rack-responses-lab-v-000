@@ -5,7 +5,7 @@ class Application
     binding.pry
     if Time.now > 12
       resp.write "Good Afternoon"
-    else 
+    else
       resp.write "Good Morning"
     end 
 
